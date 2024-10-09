@@ -13,7 +13,7 @@ return {
 	-- Manual saves can still be triggered at any moment but auto saves are more convenient.
 	autoSave = false,
 	-- Remote controller functionality, requires wireless modem.
-	rednet = false,
+	rednet = true,
 	controlMonitor = {
 		-- Monitor ID or orientation for gamepad.
 		-- This can be blank if you don't want a gamepad.
